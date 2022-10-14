@@ -1,6 +1,6 @@
 {
   "name": "traktflix",
-  "version": "2.1.1",
+  "version": "67.1",
   "description": "A Trakt.tv scrobbler for Netflix.",
   "author": "tegon",
   "private": true,
