@@ -44,7 +44,8 @@ const netflixApiUtils = {
           url: `${NETFLIX_HOST}/Activate`,
           success: response => {
             this.authUrl = this.extractAuthURL(response);
-            this.buildIdentifier = this.extractBuildIdentifier(response);
+            // this.buildIdentifier = this.extractBuildIdentifier(response);
+            this.buildIdentifier = "mre";
             this.isActivated = true;
             resolve();
           },

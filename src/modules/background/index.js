@@ -47,7 +47,8 @@ browser.runtime.onMessage.addListener((request, sender) => {
       case `setApiDefs`:
         // noinspection JSIgnoredPromiseFromCall
         defs.authUrl = request.authUrl;
-        defs.buildIdentifier = request.buildIdentifier;
+        //defs.buildIdentifier = request.buildIdentifier;
+        defs.buildIdentifier = "mre";
         break;
       case `authorize`:
         // noinspection JSIgnoredPromiseFromCall
